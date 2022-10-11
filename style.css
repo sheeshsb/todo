@@ -1,0 +1,52 @@
+body{
+	text-align: center;
+	background-color: bisque;
+	font-family: 'Lora', serif;
+}
+h1{
+	color: gold;
+	text-shadow: 5px 3px 2px gray;
+	font-weight: bolder;
+	font-size: 50px;
+}
+#input, #todo-button {
+	height: 45px;
+	font-size: 35px;
+	border-radius: 20px;
+	border: 2px solid gray;
+	color: lightpink; 
+}
+#input:focus, #todo-button:focus{
+	outline: none;
+	border: 2px solid cornflowerblue;
+	transform: scale(1.1);
+}
+#todo-button{
+	margin-left: 22px;
+	cursor: pointer;
+}
+#todo-items-list{
+	margin-top: 25px;
+}
+.todoItem{
+	cursor: pointer;
+	text-transform: uppercase;
+	background-color: blanchedalmond;
+	width: 600px;
+	margin: 0 auto;
+	height: 40px;
+	color: lightgreen;
+	font-size: 30px;
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	margin-top: 2px;
+}
+.subtitle{
+	width: 750px;
+	margin: 0 auto;
+	font-size: 20px;
+	text-transform: capitalize;
+	margin-bottom: 30px;
+	color: chocolate;
+}
